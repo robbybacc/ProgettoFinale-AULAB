@@ -1,0 +1,349 @@
+.linkLogout {
+    list-style: none;
+}
+
+.navbar {
+    height: 100px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse-hover:hover {
+    animation: pulse 0.9s infinite;
+}
+
+.btn-botton {
+    background-color: #084e95;
+    
+}
+
+.wordCustom {
+    text-decoration-color: #002234;
+}
+
+.margin-class {
+    margin-top: 172px;
+}
+
+@media screen and (max-width: 600px) {
+    .imgLogo {
+        width: auto;
+    }
+
+    .margin-class {
+        margin-top: auto;
+    }
+
+    .marginCustom {
+        margin-top: 190px !important;
+
+    }
+}
+
+.imgCustom:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.imgCustom {
+    height: 200px;
+    width: 220px;
+}
+
+
+
+
+
+h1,
+h2 {
+    font-family: "Catamaran", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h3,
+h4,
+h5 {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+p {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.fa-li {
+    position: relative;
+    left: 0;
+}
+
+.paddingAlert {
+    padding-top: 172px;
+}
+
+/* .left-container,
+.right-container {
+    flex: 1;
+    padding: 20px;
+  
+} */
+
+
+
+
+
+.image-body {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+
+
+
+
+
+.dimensioniForm {
+    height: 465px;
+}
+
+.bgPage {
+    background-image: url(/public/img/sfondo1.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgPage2 {
+    background-image: url(/public/img/sfondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.colorCover {
+    background-color: #e9e8e2;
+}
+
+.borderCustom {
+    border-bottom: 1px solid black;
+}
+
+.bg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(230, 222, 222, 0.719);
+    border-radius: 8px;
+
+}
+
+.alert {
+    --bs-alert-margin-bottom: 0;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardPosition {
+    width: 100%;
+}
+
+.containerArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 80%;
+
+}
+
+.articolo {
+     /* flex-wrap: wrap; */
+    border: 1px solid black;
+    border-radius: 4px;
+    /* margin-bottom: 20px; */
+    cursor: pointer;
+    background-color: white;
+    /* width: 100%; */
+    /* height: 60vh; */
+    /* align-items: stretch;  */
+}
+
+.articolo2 {
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 4px;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    background-color: white;
+    width: 250px;
+    height: 60vh;
+    align-items: stretch;
+}
+
+.card3{
+    flex: 1; /* Questo permette alla card di adattarsi a tutta l'altezza del contenitore */
+    display: flex;
+    flex-direction: column;
+    /* Aggiungi altri stili per la card come preferisci */
+    
+
+}
+
+.footerArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dimensioneBottone {
+    background-color: #084e95;
+    width: 100%;
+}
+
+.dimensioneData {
+    width: 70%;
+}
+
+.separator {
+    border-top: 1px solid grey;
+    width: 100%;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 280px;
+    width: 100%;
+}
+
+.positionCard2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 50wh;
+}
+ .card2 {
+    width: 18vw;
+} 
+
+.positionBotton2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottonShow {
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
+
+.borderCardShow {
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.containerRoles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.titleJob {
+    font-family: "Catamaran", sans-serif !important;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.jopPara {}
+
+.titleFooter {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-style: normal;
+
+}
+
+.colorTextLink {
+    text-decoration: none;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* adjust the number of columns to your liking */
+    grid-gap: 10px;
+}
+
+.card4 {
+    grid-row: 1 / -1; /* make all cards span the full height of the grid */
+}
